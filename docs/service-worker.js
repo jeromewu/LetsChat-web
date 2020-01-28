@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LetsChat-web/precache-manifest.9c529f805d108daf870a0921e8dfef6e.js"
+  "/LetsChat-web/precache-manifest.51f6a695b658ed64339862bbfe318888.js"
 );
 
 self.addEventListener('message', (event) => {

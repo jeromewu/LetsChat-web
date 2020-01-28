@@ -10,6 +10,7 @@ const useStyles = makeStyles({
     width: '100%',
   },
   textarea: {
+    padding: 0,
     fontSize: 96,
     width: '100%',
   }
@@ -22,8 +23,8 @@ export default function App() {
     <Container maxWidth="sm">
       <Box my={4}>
         <TextareaAutosize
-          rows={4}
-          rowsMax={4}
+          rows={5}
+          rowsMax={5}
           value={value}
           onChange={(evt) => { setValue(evt.target.value) }}
           className={classes.textarea}

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/LetsChat-web/static/js/main.fbc7664c.chunk.js",
-    "main.js.map": "/LetsChat-web/static/js/main.fbc7664c.chunk.js.map",
+    "main.js": "/LetsChat-web/static/js/main.96b41739.chunk.js",
+    "main.js.map": "/LetsChat-web/static/js/main.96b41739.chunk.js.map",
     "runtime-main.js": "/LetsChat-web/static/js/runtime-main.2d4900e6.js",
     "runtime-main.js.map": "/LetsChat-web/static/js/runtime-main.2d4900e6.js.map",
     "static/js/2.77a3cbe9.chunk.js": "/LetsChat-web/static/js/2.77a3cbe9.chunk.js",
     "static/js/2.77a3cbe9.chunk.js.map": "/LetsChat-web/static/js/2.77a3cbe9.chunk.js.map",
     "index.html": "/LetsChat-web/index.html",
-    "precache-manifest.9c529f805d108daf870a0921e8dfef6e.js": "/LetsChat-web/precache-manifest.9c529f805d108daf870a0921e8dfef6e.js",
+    "precache-manifest.51f6a695b658ed64339862bbfe318888.js": "/LetsChat-web/precache-manifest.51f6a695b658ed64339862bbfe318888.js",
     "service-worker.js": "/LetsChat-web/service-worker.js",
     "static/js/2.77a3cbe9.chunk.js.LICENSE": "/LetsChat-web/static/js/2.77a3cbe9.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.2d4900e6.js",
     "static/js/2.77a3cbe9.chunk.js",
-    "static/js/main.fbc7664c.chunk.js"
+    "static/js/main.96b41739.chunk.js"
   ]
 }

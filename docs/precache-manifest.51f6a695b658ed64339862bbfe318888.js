@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca3a80e00e1be8349fad93eaee4af4da",
+    "revision": "3b12d65b184dae216fb9b1b81ceb9364",
     "url": "/LetsChat-web/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LetsChat-web/static/js/2.77a3cbe9.chunk.js.LICENSE"
   },
   {
-    "revision": "4de290a1d5eab062075d",
-    "url": "/LetsChat-web/static/js/main.fbc7664c.chunk.js"
+    "revision": "3d4cb30e5124026d3f3a",
+    "url": "/LetsChat-web/static/js/main.96b41739.chunk.js"
   },
   {
     "revision": "b83a1ef5d02a1b85683c",
