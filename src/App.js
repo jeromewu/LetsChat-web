@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
-function App() {
+const useStyles = makeStyles({
+  button: {
+    width: '100%',
+  },
+  textarea: {
+    fontSize: 96,
+    width: '100%',
+  }
+});
+
+export default function App() {
+  const [value, setValue] = useState('');
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Container maxWidth="sm">
+      <Box my={4}>
+        <TextareaAutosize
+          rows={4}
+          rowsMax={4}
+          value={value}
+          onChange={(evt) => { setValue(evt.target.value) }}
+          className={classes.textarea}
+          aria-label="textarea"
+          placeholder="Click Me"
+        />
+        <Button
+          className={classes.button}
+          variant="contained"
+          size="large"
+          color="secondary"
+          onClick={() => setValue('')}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Clear
+        </Button>
+      </Box>
+    </Container>
   );
 }
-
-export default App;
